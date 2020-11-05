@@ -1,0 +1,77 @@
+@import url('nav.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+}
+#homepage {
+    height: 100vh;
+    background: url('Guitar\ webArtboard\ 1.png'); 
+    background-position: right;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+#homepage h2{
+    
+    padding-top: 40vh;
+    text-align: center;
+
+}
+#homepage p{
+    text-align: center;
+    font-size: 30px
+}
+
+ 
+ #about-us{
+     height: 100vh;
+     background: url('page\ 2Artboard\ 1.png');
+     background-position: right;
+     background-size: 180vh;
+     background-repeat: no-repeat;
+       
+ }
+
+ #scales{
+    height: 100vh;
+    background: url('page\ 3Artboard\ 1.png');
+    background-position: right;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+      
+} #chords{
+    height: 100vh;
+    background: url('page\ 4Artboard\ 1.png');
+    background-position: right;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+      
+} #music-theory{
+    height: 100vh;
+    background: url('page\ 5Artboard\ 1.png');
+    background-position: right;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+      
+} #your-style{
+    height: 100vh;
+    background: url('page\ 6Artboard\ 1.png');
+    background-position: right;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+      
+}
+
+#sign-up{
+    height: 100vh;
+    background: url('page\ 7Artboard\ 1.png');
+    background-position: right;
+    background-size: 180vh;
+    background-repeat: no-repeat;
+      
+}
