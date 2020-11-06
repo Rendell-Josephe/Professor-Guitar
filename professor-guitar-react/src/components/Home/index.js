@@ -1,7 +1,6 @@
 import React from 'react'
-import {HomeContainer, HomeContent, HomeH1, HomeP, IdeaBalloon} from './HomeElements'
-import { ReactComponent as Logo} from '../../images/idea.svg';
-import './idea.css'
+import {HomeContainer, HomeContent, HomeH1, HomeP, IdeaBalloon, Logo} from './HomeElements'
+
 
 const HomeSection = () => {
     return (
