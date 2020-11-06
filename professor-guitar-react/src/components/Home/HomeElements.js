@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import img from './page1.png';
 import '.../../../src/fonts//Inter-Bold.woff';
 import '.../../../src/fonts//Inter-Medium.woff';
+import { ReactComponent as Idea} from '../../images/idea.svg';
 
 
 export const HomeContainer = styled.div`
@@ -16,32 +17,21 @@ export const HomeContainer = styled.div`
 `;
 
 
+
 export const IdeaBalloon = styled.div`
  position: absolute;
  z-index:1;
- padding-top: 10px;
- svg {
-     padding-top: 50px;
-     padding-left:50px;
-     height: 650px;
-     width: 650px;
-     #balloon3 {
-         height: 10px;
-         width: 10px;
-     }
- }
- @animation 
- ballon1: 12
-
-
+ padding-top: 10vh;
+ svg{
+ height: 640px;
+ width: 740px;
+}
 `;
 
-export const Logo = styled.svg`
-`;
+export const Logo = styled(Idea)``;
 
 
 export const HomeContent = styled.text`
-
  max-width: 1200px;
  padding: 8px 24px;
  flex-direction: column;
